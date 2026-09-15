@@ -1,0 +1,389 @@
+{
+  "registry_version": "1.0",
+  "records_audited": 34,
+  "public_metadata_badges": 17,
+  "publicly_documented_badges": 1,
+  "first_hand_blocks": 21,
+  "role_values_audited": 64,
+  "inferred_roles": 0,
+  "misapplied_badges": 0,
+  "records": [
+    {
+      "id": "credit-001",
+      "artist": "Emtee",
+      "track": "Abantu",
+      "tier": "A",
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-002",
+      "artist": "Emtee",
+      "track": "Lessons",
+      "tier": "A",
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-003",
+      "artist": "Emtee",
+      "track": "Bring It Back",
+      "tier": "A",
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-004",
+      "artist": "Emtee",
+      "track": "I Need Love",
+      "tier": "A",
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-005",
+      "artist": "Sjava",
+      "track": "Isibhamu",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-006",
+      "artist": "S'Villa",
+      "track": "Thula",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-007",
+      "artist": "Kid Tini",
+      "track": "Bet",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-008",
+      "artist": "Kid Tini",
+      "track": "My People",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-009",
+      "artist": "Kid Tini",
+      "track": "Icebo",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-010",
+      "artist": "Kid Tini",
+      "track": "Life",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-011",
+      "artist": "Kid Tini",
+      "track": "Amen",
+      "tier": "A",
+      "public_roles": [
+        "Composer",
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-012",
+      "artist": "LaSauce",
+      "track": "Njani",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-013",
+      "artist": "LaSauce",
+      "track": "Messed Up",
+      "tier": "A",
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-014",
+      "artist": "Saudi",
+      "track": "Rockstar",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-015",
+      "artist": "Saudi",
+      "track": "Been Through It",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-016",
+      "artist": "Saudi",
+      "track": "Please Understand",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-017",
+      "artist": "Gigi Lamayne",
+      "track": "Roll",
+      "tier": "A",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-018",
+      "artist": "Gigi Lamayne",
+      "track": "Baddest In The Game",
+      "tier": "B",
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": []
+    },
+    {
+      "id": "credit-019",
+      "artist": "Emtee",
+      "track": "Prayer",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-020",
+      "artist": "Emtee",
+      "track": "Smogolo",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-021",
+      "artist": "Kid Tini",
+      "track": "Winning",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-022",
+      "artist": "Kid Tini",
+      "track": "Andisababoni",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-023",
+      "artist": "Kid Tini",
+      "track": "Lollipop",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-024",
+      "artist": "Kid Tini",
+      "track": "Sucker Free",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-025",
+      "artist": "Kid Tini",
+      "track": "Right Back",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-026",
+      "artist": "Kid Tini",
+      "track": "Movie",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-027",
+      "artist": "Kid Tini",
+      "track": "Get Money",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-028",
+      "artist": "LaSauce",
+      "track": "Umona",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-029",
+      "artist": "LaSauce",
+      "track": "Questions",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-030",
+      "artist": "LaSauce",
+      "track": "Every Morning",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-031",
+      "artist": "LaSauce",
+      "track": "Is It True",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-032",
+      "artist": "LaSauce",
+      "track": "Phinde",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-033",
+      "artist": "CiCi",
+      "track": "MULTIPLE_TRACKS",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Recording"
+      ]
+    },
+    {
+      "id": "credit-034",
+      "artist": "Inkabi Zezwe",
+      "track": "Iskhwele",
+      "tier": "C",
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer"
+      ]
+    }
+  ],
+  "registry_sha256": "3f139dd6d7734f7b3631033db839b95bfea5017330b3e0fe5be136392eb6657a",
+  "html_sha256": "132511f2595bbab31267a2277ff44438a66be91f4cec83d9526a39436ac25d22"
+}
