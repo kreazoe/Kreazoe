@@ -1,0 +1,785 @@
+{
+  "KREAZOE_MASTER_CREDITS_REGISTRY_VERSION": "1.0",
+  "STATUS": "FROZEN",
+  "evidence_tiers": {
+    "A": "TRACK_LEVEL_PUBLIC_METADATA",
+    "B": "STRONG_PUBLIC_DOCUMENTATION",
+    "C": "FIRST_HAND_STUDIO_HISTORY"
+  },
+  "records": [
+    {
+      "artist": "Emtee",
+      "featured_artists": [
+        "S'Villa",
+        "Snymaan"
+      ],
+      "track": "Abantu",
+      "project": "DIY 2",
+      "year": 2018,
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/diy-2-emtee/eudild19oo8ja"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Public metadata verifies only the public_roles above. Recording is first-hand studio history and must not receive a Verified/Public Metadata badge."
+    },
+    {
+      "artist": "Emtee",
+      "featured_artists": [],
+      "track": "Lessons",
+      "project": "DIY 2",
+      "year": 2018,
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/diy-2-emtee/eudild19oo8ja"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Recording is first-hand studio history only."
+    },
+    {
+      "artist": "Emtee",
+      "featured_artists": [],
+      "track": "Bring It Back",
+      "project": "DIY 2",
+      "year": 2018,
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/diy-2-emtee/eudild19oo8ja"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Recording is first-hand studio history only."
+    },
+    {
+      "artist": "Emtee",
+      "featured_artists": [
+        "Sims",
+        "Sjava"
+      ],
+      "track": "I Need Love",
+      "project": "DIY 2",
+      "year": 2018,
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/diy-2-emtee/eudild19oo8ja"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Recording is first-hand studio history only."
+    },
+    {
+      "artist": "Sjava",
+      "featured_artists": [],
+      "track": "Isibhamu",
+      "project": "Umqhele",
+      "year": 2018,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [
+        "Mfanafuthi Ruff Nkosi"
+      ],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Shazam",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.shazam.com/song/1629479298/isibhamu"
+        },
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/sjava/song/isibhamu"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Public presentation must identify the production as co-production with Mfanafuthi Ruff Nkosi. Recording is first-hand studio history only."
+    },
+    {
+      "artist": "S'Villa",
+      "featured_artists": [],
+      "track": "Thula",
+      "project": "Thula",
+      "year": 2019,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Shazam",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.shazam.com/song/1578979063/thula/music-video"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Bet",
+      "project": "Sound Mind",
+      "year": 2019,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Shazam",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.shazam.com/song/1579880656/bet"
+        },
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/kid-tini-1/album/sound-mind-ep"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Shazam is the track-specific producer evidence. Do not infer production of every Sound Mind track from project-level metadata."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "My People",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/kidtini/song/my-people"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Icebo",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [
+        "Pheto Mbulelo Mabena"
+      ],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/kidtini/song/icebo"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": "Must be presented as co-production with Pheto Mbulelo Mabena."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [
+        "S'Villa"
+      ],
+      "track": "Life",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/kidtini/song/life"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [
+        "Sbahle"
+      ],
+      "track": "Amen",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [
+        "Composer",
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela / Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Shazam",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.shazam.com/song/1579427668/amen-feat-sbahle"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": "Preserve source metadata literally. Shazam identifies Bheki Christopher Thobela as Composer and Christopher Thobela in the production metadata. Do not present this as a claim of sole production. Do not remove other producers when source context is displayed."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Njani",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/lasauce-4/song/njani"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [
+        "Lisa"
+      ],
+      "track": "Messed Up",
+      "project": "Broken Lipstick",
+      "year": 2017,
+      "public_roles": [
+        "Producer",
+        "StudioProducer",
+        "NonLyricAuthor"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/broken-lipstick-lasauce/fw39fiidki5pc"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Saudi",
+      "featured_artists": [
+        "Ranks ATM"
+      ],
+      "track": "Rockstar",
+      "project": "The Drip's Leak",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Kreazoe",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/the-drips-leak-saudi/s64bg8j8c91fc"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Saudi",
+      "featured_artists": [
+        "Emtee",
+        "Ranks ATM",
+        "Sims"
+      ],
+      "track": "Been Through It",
+      "project": "The Drip's Leak",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Kreazoe",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/the-drips-leak-saudi/s64bg8j8c91fc"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Saudi",
+      "featured_artists": [],
+      "track": "Please Understand",
+      "project": "The Drip's Leak",
+      "year": 2020,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Kreazoe",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Qobuz",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://www.qobuz.com/us-en/album/the-drips-leak-saudi/s64bg8j8c91fc"
+        },
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/saudi-47/song/please-understand-8649842"
+        }
+      ],
+      "portfolio_status": "FEATURED_VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Gigi Lamayne",
+      "featured_artists": [],
+      "track": "Roll",
+      "project": "VI",
+      "year": 2018,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "A",
+      "evidence_sources": [
+        {
+          "name": "Audiomack",
+          "type": "TRACK_LEVEL_PUBLIC_METADATA",
+          "url": "https://audiomack.com/gigi-lamayne/song/roll"
+        }
+      ],
+      "portfolio_status": "VERIFIED",
+      "notes": ""
+    },
+    {
+      "artist": "Gigi Lamayne",
+      "featured_artists": [
+        "Eminent Fam"
+      ],
+      "track": "Baddest In The Game",
+      "project": "VI",
+      "year": 2018,
+      "public_roles": [
+        "Producer"
+      ],
+      "first_hand_roles": [],
+      "credited_as": "Kreazoe",
+      "collaborators": [],
+      "evidence_tier": "B",
+      "evidence_sources": [
+        {
+          "name": "SA Hip Hop Mag",
+          "type": "STRONG_PUBLIC_DOCUMENTATION",
+          "url": "https://sahiphopmag.co.za/2018/06/gigi-lamayne-unveils-vi-ep-tracklist-and-artwork/"
+        }
+      ],
+      "portfolio_status": "PUBLICLY_DOCUMENTED",
+      "notes": "Display as Publicly documented. Do not display DSP Verified/Public Metadata badge."
+    },
+    {
+      "artist": "Emtee",
+      "featured_artists": [],
+      "track": "Prayer",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Kreazoe / Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "Do not display a Verified badge."
+    },
+    {
+      "artist": "Emtee",
+      "featured_artists": [],
+      "track": "Smogolo",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Kreazoe / Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "Do not display a Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Winning",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Andisababoni",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Lollipop",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Sucker Free",
+      "project": "The Second Coming",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "Project-level producer references must not be converted into track-level public verification."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Right Back",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [],
+      "track": "Movie",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "Kid Tini",
+      "featured_artists": [
+        "Styles P",
+        "Stogie T"
+      ],
+      "track": "Get Money",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Umona",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Questions",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Every Morning",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Is It True",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "LaSauce",
+      "featured_artists": [],
+      "track": "Phinde",
+      "project": "Sindisiwe",
+      "year": 2020,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer",
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "No Verified badge."
+    },
+    {
+      "artist": "CiCi",
+      "featured_artists": [],
+      "track": "MULTIPLE_TRACKS",
+      "project": "Busisiwe",
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Recording"
+      ],
+      "credited_as": "Bheki Christopher Thobela",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "Bheki states that he recorded most songs on Busisiwe. This is a project-level studio-history record. DO NOT claim production. DO NOT generate individual track recording credits from this project-level statement."
+    },
+    {
+      "artist": "Inkabi Zezwe",
+      "featured_artists": [],
+      "track": "Iskhwele",
+      "project": null,
+      "year": null,
+      "public_roles": [],
+      "first_hand_roles": [
+        "Producer"
+      ],
+      "credited_as": "Bheki Christopher Thobela / Kreazoe",
+      "collaborators": [],
+      "evidence_tier": "C",
+      "evidence_sources": [],
+      "portfolio_status": "FIRST_HAND_STUDIO_HISTORY",
+      "notes": "Do not display as independently verified unless a future frozen registry version explicitly upgrades this record."
+    }
+  ],
+  "excluded_records": [
+    {
+      "artist": "Emtee",
+      "track": "DIY 2",
+      "project": "DIY 2",
+      "portfolio_status": "EXCLUDED",
+      "public_roles": [],
+      "first_hand_roles": [],
+      "notes": "Do not display this record anywhere in the portfolio. Do not display a dispute explanation. Do not infer it from album-level relationships."
+    }
+  ]
+}
