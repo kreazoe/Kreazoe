@@ -4,6 +4,9 @@
   "public_metadata_badges": 17,
   "publicly_documented_badges": 1,
   "first_hand_blocks": 21,
+  "featured_record_previews": 10,
+  "public_role_values": 29,
+  "first_hand_role_values": 35,
   "role_values_audited": 64,
   "inferred_roles": 0,
   "misapplied_badges": 0,
@@ -385,5 +388,5 @@
     }
   ],
   "registry_sha256": "3f139dd6d7734f7b3631033db839b95bfea5017330b3e0fe5be136392eb6657a",
-  "html_sha256": "132511f2595bbab31267a2277ff44438a66be91f4cec83d9526a39436ac25d22"
+  "html_sha256": "e98fa239aff0bf5dfe6e09cb13b8c91964143146f58a490f0d4df579cd72c350"
 }

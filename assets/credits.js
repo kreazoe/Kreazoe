@@ -8,6 +8,8 @@
   const query = document.getElementById('credit-search');
   const artist = document.getElementById('credit-artist');
   const evidence = document.getElementById('credit-evidence');
+  const year = document.getElementById('credit-year');
+  const project = document.getElementById('credit-project');
   const role = document.getElementById('credit-role');
   const featured = document.getElementById('credit-featured');
   const result = document.getElementById('credit-result');
@@ -21,6 +23,8 @@
         : evidence.value ? (el.dataset.tier === evidence.value ? publicRoles : [])
         : [...publicRoles, ...firstHandRoles];
       const match = (!artist.value || el.dataset.artist === artist.value)
+        && (!year.value || (year.value === '__unspecified' ? !el.dataset.year : el.dataset.year === year.value))
+        && (!project.value || (project.value === '__unspecified' ? !el.dataset.project : el.dataset.project === project.value))
         && (!evidence.value || scopedRoles.length > 0)
         && (!role.value || scopedRoles.includes(role.value))
         && (!featured.checked || el.dataset.featured === 'true')
@@ -46,7 +50,7 @@
   document.querySelector('.registry-toolbar a[href="#discography"]').addEventListener('click', () => {
     form.reset(); filter();
   });
-  document.querySelectorAll('.credit-permalink').forEach(link => link.addEventListener('click', () => {
+  document.querySelectorAll('.credit-permalink, .selection-card').forEach(link => link.addEventListener('click', () => {
     if (link.hash === location.hash) revealHash();
   }));
   addEventListener('hashchange', revealHash);

@@ -32,6 +32,13 @@ def audit(reg,source):
  expected={f'credit-{i:03}':r for i,r in enumerate(reg['records'],1) if r['portfolio_status']!='EXCLUDED'}
  assert len(cards)==len(expected),'Unexpected or missing credit cards'
  assert {c.attrs['id'] for c in cards}==set(expected),'Credit identity mismatch'
+ selections=tree.find(lambda n:n.has('selection-card'))
+ featured={key:r for key,r in expected.items() if r['portfolio_status']=='FEATURED_VERIFIED'}
+ assert len(selections)==len(featured),'Featured selection count mismatch'
+ for item in selections:
+  key=item.attrs['data-feature-ref']; assert key in featured and item.attrs['href']=='#'+key
+  assert item.find(lambda n:n.tag=='h3')[0].text()==featured[key]['track']
+  assert not item.find(lambda n:n.has('evidence-label') or n.has('credit-roles')),'Selection assigns track-wide badge or roles'
  total_roles=0;total_badges=0;rows=[]
  for card in cards:
   rec=expected[card.attrs['id']];tier=rec['evidence_tier']
@@ -70,7 +77,7 @@ def audit(reg,source):
   total_badges+=scoped_badges;rows.append(row)
  assert len(tree.find(lambda n:n.has('evidence-label')))==total_badges,'Unscoped evidence badge'
  assert len(tree.find(lambda n:n.has('credit-roles')))==sum(bool(r['public_roles'])+bool(r['first_hand_roles']) for r in expected.values()),'Unscoped role list'
- return {'registry_version':reg['KREAZOE_MASTER_CREDITS_REGISTRY_VERSION'],'records_audited':len(cards),'public_metadata_badges':sum(bool(r['public_roles']) and r['evidence_tier']=='A' for r in expected.values()),'publicly_documented_badges':sum(bool(r['public_roles']) and r['evidence_tier']=='B' for r in expected.values()),'first_hand_blocks':sum(bool(r['first_hand_roles']) for r in expected.values()),'role_values_audited':total_roles,'inferred_roles':0,'misapplied_badges':0,'records':rows}
+ return {'registry_version':reg['KREAZOE_MASTER_CREDITS_REGISTRY_VERSION'],'records_audited':len(cards),'public_metadata_badges':sum(bool(r['public_roles']) and r['evidence_tier']=='A' for r in expected.values()),'publicly_documented_badges':sum(bool(r['public_roles']) and r['evidence_tier']=='B' for r in expected.values()),'first_hand_blocks':sum(bool(r['first_hand_roles']) for r in expected.values()),'featured_record_previews':len(selections),'public_role_values':sum(len(r['public_roles']) for r in expected.values()),'first_hand_role_values':sum(len(r['first_hand_roles']) for r in expected.values()),'role_values_audited':total_roles,'inferred_roles':0,'misapplied_badges':0,'records':rows}
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--registry',type=Path,default=ROOT/'data/credits-registry.v1.json');p.add_argument('--html',type=Path,default=ROOT/'index.html');p.add_argument('--report',type=Path);args=p.parse_args()
  reg=args.registry.read_bytes();page=args.html.read_bytes();report=audit(json.loads(reg),page.decode())
