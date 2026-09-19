@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V5 responsive review</title>
+<style>body{font:16px Arial;margin:20px;background:#eee;color:#111}button{padding:12px;margin:5px}iframe{display:block;border:1px solid #777;width:1280px;height:900px;margin-top:15px;max-width:none}pre{white-space:pre-wrap}nav{position:sticky;top:0;background:#eee;padding:10px}</style>
+<nav aria-label="Review controls"><button data-width="320">320px</button><button data-width="390">390px</button><button data-width="768">768px</button><button data-width="1280">1280px</button><button id="audit">Audit rendered page</button><pre id="result" role="status">Choose a viewport, then audit.</pre></nav>
+<iframe src="../index.html" title="Portfolio responsive preview"></iframe>
+<script>
+const frame=document.querySelector('iframe'), result=document.getElementById('result');
+document.querySelectorAll('[data-width]').forEach(b=>b.onclick=()=>{frame.style.width=b.dataset.width+'px';result.textContent='Viewport set to '+b.dataset.width+'px. Scroll inside the portfolio to review.'});
+document.getElementById('audit').onclick=()=>{
+ const w=frame.contentWindow,d=frame.contentDocument,cards=[...d.querySelectorAll('.registry-credit')];
+ result.textContent=JSON.stringify({width:w.innerWidth,scrollWidth:d.documentElement.scrollWidth,overflow:d.documentElement.scrollWidth>w.innerWidth,records:cards.length,publicRoles:cards.reduce((n,e)=>n+JSON.parse(e.dataset.public).length,0),firstHandRoles:cards.reduce((n,e)=>n+JSON.parse(e.dataset.firstHand).length,0),publicMetadata:d.querySelectorAll('.public-role-block .evidence-label').length-1,publiclyDocumented:[...d.querySelectorAll('.evidence-label')].filter(e=>e.textContent==='Publicly documented').length,firstHandBadges:d.querySelectorAll('.first-hand-role-block .evidence-label').length,missingImages:[...d.images].filter(i=>!i.complete||!i.naturalWidth).length},null,2);
+};
+</script></html>
