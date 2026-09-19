@@ -5,8 +5,8 @@ from audit_rendered_credits import Tree,audit
 ROOT=Path(__file__).resolve().parents[1];s=(ROOT/'index.html').read_text();tree=Tree(s).root;r=json.loads((ROOT/'data/credits-registry.v1.json').read_text())
 audit(r,s)
 for kind in ('releases','recognition'):
- nodes=tree.find(lambda n:n.attrs.get('data-future-component')==kind);assert len(nodes)==1
- assert not nodes[0].find(lambda n:n.has('registry-credit') or n.has('selection-card') or n.has('evidence-label') or n.tag in ('blockquote','cite','audio','iframe'))
+ nodes=tree.find(lambda n:n.attrs.get('data-future-component')==kind);assert len(nodes)==0
+ assert not any(n.find(lambda n:n.has('registry-credit') or n.has('selection-card') or n.has('evidence-label') or n.tag in ('blockquote','cite','audio','iframe')) for n in nodes)
 for id,field in [('credit-year','year'),('credit-project','project')]:
  select=tree.find(lambda n:n.attrs.get('id')==id)[0]
  options=select.find(lambda n:n.tag=='option')

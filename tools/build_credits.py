@@ -66,6 +66,12 @@ def render(reg):
 <div class="credit-collection" id="public-collection"><h3 class="collection-title">Public credits <span>Metadata &amp; documentation</span></h3><div class="productions">{public}</div></div>
 <div class="credit-collection" id="discography"><h3 class="collection-title">Studio history <span>First-hand studio work</span></h3><p class="collection-intro">Additional studio records. Where a public credit also has first-hand roles, both are separated in that record above.</p><div class="productions">{studio}</div></div>
 <p id="credit-empty" class="empty-state" hidden>No records match these filters. Try another role or evidence type, or clear the filters.</p><p class="small-note registry-edition">KREAZOE™ Master Credits Registry · Version {esc(version)}. Evidence labels apply only to the roles beside them.</p></div></section>'''
+def render_sections(reg):
+ combined=render(reg)
+ selected,explorer=combined.split('<div id="explorer" class="explorer-heading">',1)
+ selected=selected.replace('01 / Selected productions','03 / Selected production &amp; music work').replace('Let the<br><em>work speak.</em>','Records with<br><em>intention.</em>')
+ return selected+'</div></section>', '<section id="explorer" class="section explorer-section"><div class="wrap"><div class="explorer-heading">'+explorer
+
 def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--registry',type=Path,default=ROOT/'data/credits-registry.v1.json',help='Path to an authorized frozen registry version')
@@ -73,6 +79,11 @@ def main():
  reg=json.loads(args.registry.read_text())
  path=ROOT/'index.html'; s=path.read_text()
  section=render(reg)
+ if '<!-- SELECTED:START -->' in s:
+  selected,explorer=render_sections(reg)
+  for name,content in [('SELECTED',selected),('EXPLORER',explorer)]:
+   s=re.sub(r'<!-- '+name+':START -->.*?<!-- '+name+':END -->',lambda _,n=name,c=content: '<!-- '+n+':START -->'+c+'<!-- '+n+':END -->',s,flags=re.S)
+  path.write_text(s); return
  if '<!-- CREDITS:START -->' in s:
   s=re.sub(r'<!-- CREDITS:START -->.*?<!-- CREDITS:END -->',lambda _: '<!-- CREDITS:START -->'+section+'<!-- CREDITS:END -->',s,flags=re.S)
  else:

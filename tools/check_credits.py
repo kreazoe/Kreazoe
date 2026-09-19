@@ -3,7 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlparse
 import json, re, hashlib
-from build_credits import render
+from build_credits import render, render_sections
 ROOT=Path(__file__).resolve().parents[1]
 r=json.loads((ROOT/'data/credits-registry.v1.json').read_text()); records=r['records']; page=(ROOT/'index.html').read_text()
 expected_tracks=['Abantu','Lessons','Bring It Back','I Need Love','Isibhamu','Thula','Bet','My People','Icebo','Life','Amen','Njani','Messed Up','Rockstar','Been Through It','Please Understand','Roll','Baddest In The Game','Prayer','Smogolo','Winning','Andisababoni','Lollipop','Sucker Free','Right Back','Movie','Get Money','Umona','Questions','Every Morning','Is It True','Phinde','MULTIPLE_TRACKS','Iskhwele']
@@ -22,7 +22,7 @@ assert records[4]['collaborators']==['Mfanafuthi Ruff Nkosi']
 assert records[8]['collaborators']==['Pheto Mbulelo Mabena']
 assert records[10]['credited_as']=='Bheki Christopher Thobela / Christopher Thobela'
 assert records[32]['project']=='Busisiwe' and records[32]['track']=='MULTIPLE_TRACKS'
-assert render(r) in page,'Generated HTML is stale'
+assert all(part in page for part in render_sections(r)), 'Generated HTML is stale'
 class Audit(HTMLParser):
  def __init__(self):
   super().__init__();self.ids=[];self.urls=[];self.cards=[];self.feed(page)
