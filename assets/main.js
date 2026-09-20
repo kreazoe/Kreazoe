@@ -33,7 +33,7 @@
       target.addEventListener('blur', () => target.removeAttribute('tabindex'), { once: true });
     }
   });
-  matchMedia('(min-width: 651px)').addEventListener('change', closeMenu);
+  matchMedia('(min-width: 1001px)').addEventListener('change', closeMenu);
   const links = Array.from(nav.querySelectorAll('a'));
   const sections = links.map(a => document.getElementById(a.hash.slice(1))).filter(Boolean);
   let pending = false;

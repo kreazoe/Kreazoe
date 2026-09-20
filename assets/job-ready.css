@@ -27,3 +27,135 @@ body{background:var(--bg)}.nav-inner{min-height:76px;justify-content:space-betwe
 .contact-links>a:hover{color:#f2bfc9}
 @media(max-width:650px){.selection-card:first-child h3{font-size:24px}}
 @media print{.contact-section{color:black}.contact-section h2 em{color:black}.selection-card:first-child{background:white;color:black}}
+
+/* Final mobile refinement: comfortable reading, clear hierarchy, full-width work. */
+@media screen and (max-width:1000px){
+  html{scroll-padding-top:88px}
+  .nav-inner{position:relative;min-height:72px;flex-wrap:wrap;gap:0}
+  .brand{font-size:19px;min-height:48px}
+  .js .menu-toggle{display:flex;align-items:center;justify-content:space-between;gap:22px;min-height:48px;min-width:104px;margin-left:auto;padding:0 16px;font-size:14px;letter-spacing:.025em;color:var(--ink);background:#191419;border:1px solid #6b424e;border-radius:5px}
+  .menu-toggle[hidden]{display:none}
+  .site-header nav{width:100%;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 18px;padding:12px 0 18px}
+  .js .site-header nav{display:none}
+  .js .site-header nav.is-open{display:grid;position:absolute;top:calc(100% - 1px);left:0;width:100%;grid-template-columns:1fr 1fr;gap:4px 16px;background:#161216;border:1px solid #60414f;border-top:2px solid #b42d3d;border-radius:0 0 7px 7px;padding:16px;max-height:calc(100dvh - 100px);overflow-y:auto;box-shadow:0 18px 28px #0005}
+  .site-header nav a{font-size:16px;min-height:52px;padding:7px 0;line-height:1.4}
+  .site-header nav a:after{bottom:3px;background:#d47a8a}
+}
+@media screen and (max-width:700px){
+  .wrap,.nav-inner{width:calc(100% - 40px)}
+  .section{padding-block:64px}
+  .eyebrow{font-size:12px;line-height:1.55;letter-spacing:.095em}
+  .section-heading{display:block;margin-bottom:32px}
+  .section-heading>.eyebrow{padding:0;margin-bottom:18px}
+  .section-heading h2,.contact-section h2{font-size:clamp(35px,9.2vw,48px);line-height:1.08;letter-spacing:-.045em}
+  .section-heading .section-note{margin-top:22px;font-size:16px;line-height:1.65;max-width:none}
+  .job-hero{padding-top:28px}
+  .hero-kicker{align-items:flex-start;gap:18px;margin-bottom:30px}
+  .hero-kicker .availability{font-size:12px;line-height:1.5;max-width:130px}
+  .hero-kicker .eyebrow{max-width:130px}
+  .job-hero h1{font-size:clamp(36px,9.5vw,49px);line-height:1.06;letter-spacing:-.045em}
+  .hero-alias{font-size:clamp(53px,14.3vw,88px);line-height:1;margin-top:18px;letter-spacing:-.06em}
+  .professional-headline{font-size:17px;line-height:1.6;margin-top:25px}
+  .hero-location{font-size:14px;line-height:1.6;margin-top:17px}
+  .job-hero .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
+  .job-hero .actions .button,.job-hero .actions .text-link{display:flex;justify-content:center;min-height:52px;margin:0;padding:12px 8px;border:1px solid #76616b;border-radius:4px;font-size:14px;line-height:1.4;white-space:normal;text-align:center}
+  .job-hero .actions .text-link{background:#181318}
+  .hero-proof{display:block;border-left:0;margin-top:8px;padding:24px;background:#151115;border:1px solid #46323c;border-top:2px solid #8e3344;border-radius:5px}
+  .hero-proof img{width:min(100%,280px);height:auto;margin-bottom:22px}
+  .hero-proof>div{padding:21px 0}
+  .hero-proof>div:last-child{padding-bottom:0}
+  .hero-proof p{font-size:20px;line-height:1.4}
+  .hero-proof p span{font-size:17px;color:#c3b8bf}
+  .hero-proof strong{font-size:18px}
+  .hero-proof .school{font-size:16px;line-height:1.6}
+  .hero-baseline{font-size:10px;line-height:1.7;letter-spacing:.06em;margin-top:28px}
+  .snapshot{padding-block:44px}
+  .snapshot-title{display:block;margin-bottom:28px}
+  .snapshot-title h2{font-size:34px;margin-top:12px}
+  .snapshot-grid{grid-template-columns:1fr;gap:0}
+  .snapshot-grid article{padding:22px 0;border-color:#51414b}
+  .snapshot-grid .eyebrow{font-size:12px}
+  .snapshot-grid h3{font-size:22px;line-height:1.35;margin:8px 0}
+  .snapshot-grid article>p:last-child{font-size:16px;line-height:1.55}
+  .story-intro{display:block;margin-bottom:32px}
+  .big-statement{font-size:30px;line-height:1.2;margin-bottom:22px}
+  .story-intro>p:last-child{font-size:17px;line-height:1.7}
+  .experience-item{padding:28px 0 34px;display:grid;grid-template-columns:minmax(0,1fr);gap:13px}
+  .experience-item:before{display:none}
+  .experience-item .role{grid-column:1;grid-row:1;font-size:28px;line-height:1.15}
+  .experience-item .date{grid-column:1;grid-row:2;max-width:100%;font:14px/1.6 Arial,Helvetica,sans-serif;color:#e5b5c1;letter-spacing:.025em}
+  .experience-item .sub{grid-column:1;grid-row:3;font-size:17px;line-height:1.55;color:#dfd7dc}
+  .experience-item .clean{grid-column:1;grid-row:4;margin:7px 0 0;padding-left:20px;font-size:16px;line-height:1.75}
+  .experience-item .clean li{padding-left:3px;margin-bottom:12px}
+  .selected-productions{grid-template-columns:minmax(0,1fr);gap:16px}
+  .selection-card,.selection-card:first-child{grid-column:auto;min-height:235px;padding:24px;background:#191419;border-radius:5px;border-top:2px solid #94384a}
+  .selection-meta{display:flex;font:14px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.025em}
+  .selection-meta>span{display:inline;margin:0;color:#c4b5be}
+  .selection-card h3,.selection-card:first-child h3{font-size:36px;line-height:1.08;margin:28px 0 12px;letter-spacing:-.04em}
+  .selection-card>p{font-size:16px;line-height:1.55;margin-bottom:24px}
+  .selection-link{font-size:14px;min-height:44px;align-items:center;padding-top:16px}
+  .practice-list article{display:block;padding-block:26px}
+  .practice-index{display:block;font-size:12px;margin-bottom:14px}
+  .practice-list h3{font-size:30px;margin-bottom:18px}
+  .practice-list p,.practice-list .skill-line{font-size:16px;line-height:1.7}
+  .tool-names{display:flex;flex-wrap:wrap;gap:12px 28px;font-size:32px;line-height:1.3}
+  .tools>p{font-size:14px;line-height:1.6}
+  .education-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+  .education-item,.education-item:first-child{grid-column:1;padding:24px;border-radius:5px}
+  .education-item h3{font-size:24px;line-height:1.25;margin-bottom:16px}
+  .education-item p{font-size:17px;line-height:1.7}
+  .education-item strong{font-size:inherit}
+  .explorer-heading{display:block}
+  .explorer-heading h2{font-size:42px;line-height:1.1}
+  .explorer-heading>p{font-size:16px;line-height:1.7;margin-top:20px}
+  .evidence-guide{display:grid;grid-template-columns:1fr;gap:22px;padding-block:24px}
+  .evidence-guide p{font-size:15px;line-height:1.65}
+  .credit-filters{grid-template-columns:minmax(0,1fr);padding:20px;gap:20px;border-radius:5px}
+  .credit-filters>div{grid-column:1!important}
+  .credit-filters .search-field{padding-bottom:20px;border-bottom:1px solid #60434f}
+  .credit-filters .search-field label{font-size:19px;font-weight:600;color:#f6f5f3}
+  .credit-filters label{font-size:15px;line-height:1.5;margin-bottom:8px}
+  .credit-filters input[type=search],.credit-filters select{font-size:16px;min-height:52px;border-color:#84717c;background:#0e0c0f;border-radius:3px;padding:12px}
+  .credit-filters .filter-footer{align-items:stretch;gap:14px}
+  .credit-filters .featured-filter{font-size:15px;min-height:48px}
+  .credit-filters input[type=checkbox]{min-height:22px;width:22px;flex:0 0 22px;accent-color:#b42d3d}
+  .credit-filters .button{font-size:15px;min-height:48px;justify-content:center}
+  .registry-toolbar{flex-wrap:wrap;gap:12px;align-items:center}
+  .registry-toolbar p,.registry-toolbar .text-link{font-size:14px}
+  .collection-title{font-size:26px;line-height:1.3}
+  .collection-title span{font-size:13px;line-height:1.6;letter-spacing:.03em;margin-top:8px}
+  .collection-intro,.registry-edition{font-size:15px;line-height:1.7}
+  .registry-credit summary{grid-template-columns:minmax(0,1fr) 44px;gap:3px 12px;padding:19px 0;min-height:104px}
+  .registry-credit .work-no{display:none}
+  .registry-credit .work-artist{grid-column:1;grid-row:1;font-size:15px;line-height:1.4;letter-spacing:0;color:#c5b7c0}
+  .registry-credit .work-title{grid-column:1;grid-row:2;font-size:21px;line-height:1.3;color:#f3eff1;font-weight:500}
+  .registry-credit .work-title small{font-size:13px;line-height:1.5;margin-top:6px;color:#bfb5bc}
+  .registry-credit .expand{grid-column:2;grid-row:1/3;display:flex;align-items:center;justify-content:center;min-height:44px;width:44px;font-size:24px;border:1px solid #66515f;border-radius:50%}
+  .registry-credit .production-body{grid-template-columns:minmax(0,1fr);padding:22px 0 28px;gap:24px}
+  .release-identity h3{font-size:27px;line-height:1.2}
+  .release-identity p,.source-context,.credited-as,.credited-as span{font-size:15px;line-height:1.65}
+  .role-block{padding:20px;min-width:0}
+  .role-block h4{line-height:1.5}
+  .credit-roles li{font-size:17px;line-height:1.55}
+  .evidence-label{font-size:13px}
+  .evidence-links{display:flex;flex-wrap:wrap;gap:10px}
+  .evidence-links a,.credit-permalink{min-height:48px;font-size:15px}
+  .contact-journeys{grid-template-columns:1fr;gap:22px;margin-top:32px}
+  .contact-journeys article{padding:24px;border-radius:5px}
+  .contact-journeys article:first-child{background:#251920;border:1px solid #9e5366;border-top:3px solid #c4475e}
+  .contact-journeys article:last-child{background:#151115;border-color:#4c3c45}
+  .contact-journeys h3{font-size:32px;line-height:1.12;margin:20px 0}
+  .contact-journeys article>p:not(.eyebrow){font-size:16px;line-height:1.7}
+  .contact-journeys article>p.small-note{font-size:15px}
+  .contact-journeys .button{width:100%;min-height:54px;font-size:15px;line-height:1.5;justify-content:center;padding:13px}
+  .contact-top .availability{font-size:13px}
+  .contact-grid{grid-template-columns:minmax(0,1fr);gap:28px}
+  .contact-grid h3{font-size:26px;line-height:1.25}
+  .contact-grid>div>p,.contact-grid>div>p.small-note{font-size:16px;line-height:1.7}
+  .contact-links>a{font-size:clamp(22px,6vw,27px);min-height:62px;padding:16px 0}
+  .contact-links .actions{display:grid;grid-template-columns:1fr;gap:12px}
+  .contact-links .button{min-height:54px;font-size:16px;justify-content:center}
+  .closing-mark{font-size:clamp(43px,13vw,85px);margin-top:44px}
+  .footer-inner{font-size:13px;line-height:1.6}
+  .footer-inner a{min-height:48px;display:inline-flex;align-items:center}
+}
