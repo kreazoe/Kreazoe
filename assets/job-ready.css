@@ -84,9 +84,9 @@ body{background:var(--bg)}.nav-inner{min-height:76px;justify-content:space-betwe
   .experience-item:before{display:none}
   .experience-item .role{grid-column:1;grid-row:1;font-size:28px;line-height:1.15}
   .experience-item .date{grid-column:1;grid-row:2;max-width:100%;font:14px/1.6 Arial,Helvetica,sans-serif;color:#e5b5c1;letter-spacing:.025em}
-  .experience-item .sub{grid-column:1;grid-row:3;font-size:17px;line-height:1.55;color:#dfd7dc}
+  .experience-item .sub{grid-column:1;grid-row:3;font-size:17px!important;line-height:1.55;color:#dfd7dc}
   .experience-item .clean{grid-column:1;grid-row:4;margin:7px 0 0;padding-left:20px;font-size:16px;line-height:1.75}
-  .experience-item .clean li{padding-left:3px;margin-bottom:12px}
+  .experience-item .clean li{font-size:16px;padding-left:3px;margin-bottom:12px}
   .selected-productions{grid-template-columns:minmax(0,1fr);gap:16px}
   .selection-card,.selection-card:first-child{grid-column:auto;min-height:235px;padding:24px;background:#191419;border-radius:5px;border-top:2px solid #94384a}
   .selection-meta{display:flex;font:14px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.025em}
